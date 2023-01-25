@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --main-color: #fd4646;
+  --text-color: #171427;
+  --bg-color: #fff;
+  --btn-color: blue;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  color: var(--text-color);
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: var(--bg-color);
+  box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+
+header nav a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+td img {
+  width: 90px;
+  height: 90px;
+}
+
+.btn-add {
+  margin-bottom: 5px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-info span {
+  font-size: 30px;
+}
+
+.userCounter,
+.totalSell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  justify-content: center;
+  color: var(--bg-color);
+  background-color: #fd4646;
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+}
+
+.btn-aye {
+  display: flex;
+  justify-content: center;
+}
