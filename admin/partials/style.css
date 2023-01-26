@@ -75,3 +75,21 @@ td img {
   display: flex;
   justify-content: center;
 }
+
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+}
+.carousel-photo {
+  width: 80%;
+  height: 400px;
+  background-color: red;
+}
+
+form button{
+  background-color: blanchedalmond;
+  padding: 10px;
+  width: 100px;
+  margin-top: 20px;
+}

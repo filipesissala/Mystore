@@ -16,6 +16,7 @@
     <header>
         <nav>
             <a href="index.php">Home</a>
+            <a href="listBanner.php">Gerir banner</a>
             <a href="listUser.php">Usuários</a>
             <a href="listProduct.php">Produtos</a>
             <a href="listOrder.php">Pedidos</a>

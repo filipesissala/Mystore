@@ -280,10 +280,10 @@ header nav a {
   color: var(--text-color);
 }
 
-.banner {
-  background-color: blanchedalmond;
+.carousel {
+  background-color: rgb(112, 106, 106);
   width: 100%;
-  padding: 150px;
+  height: 560px;
   margin-bottom: 25px;
 }
 
